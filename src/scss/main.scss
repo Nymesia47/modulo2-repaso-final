@@ -1,12 +1,14 @@
-/*@import 'core/variables';
+@import 'core/variables';
 @import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';*/
 
-body{
-    background-color: beige;
+.palettes {
+    border: 2px solid lightgray;
+    display: flex;
+    gap: 1px;
+    width: 105px;
+}
+
+.palette__color {
+    width: 20px;
+    height: 20px;
 }
